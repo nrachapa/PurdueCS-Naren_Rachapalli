@@ -2,10 +2,8 @@ import java.util.ArrayList;
 
 /**
  * Project 5 - Profile Class
- * <p>
+ * 
  * Creates a user profile object. 
- * @author Henry Wellman, lab sec B02
- * @version November 22, 2020
  */
 public class Profile {
 
