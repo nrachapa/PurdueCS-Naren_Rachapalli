@@ -4,10 +4,8 @@ import java.net.*;
 
 /**
  * Server class for CS180 Project 5
+ * 
  * Spawns threads for each client connection and writes data on accounts and profiles to a .csv
- *
- * @author Tejas George, B06
- * @version November 22, 2020
  */
 
 public class Server extends Thread {
