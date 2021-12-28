@@ -8,10 +8,10 @@ import java.util.ArrayList;
 public class Account implements Serializable {
 
 	//fields
-	private String userName;
-	private String password;
-	private ArrayList<Profile> profileList = new ArrayList<Profile>();
-        private ArrayList<Account> accountList = new ArrayList<Account>();
+	private String userName; //the account user name
+	private String password; //the account pasword
+	private ArrayList<Profile> profileList = new ArrayList<Profile>(); //a list of the account's profiles
+    	private ArrayList<Account> accountList = new ArrayList<Account>(); //a list containing all accounts.
 	
 	//constructor
 	public Account(String userName, String password) {
@@ -70,8 +70,4 @@ public class Account implements Serializable {
 		String answer = userName + "," + password;
 		return answer;
 	}
-	
-	
-	
-	
 }
