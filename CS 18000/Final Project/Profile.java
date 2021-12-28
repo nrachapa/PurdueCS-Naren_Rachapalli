@@ -1,23 +1,22 @@
 import java.util.ArrayList;
+import java.io.Serializable
 
 /**
  * Project 5 - Profile Class
  * 
  * Creates a user profile object. 
  */
-public class Profile {
+public class Profile implements Serializable {
 
 	//fields
-	private String userName;
-	private String password;
-	private boolean isOnline;
-	private boolean isPublic;
-	private boolean isPrivate;
-	private boolean isProtected;
-	private String contactInfo;
-	private String interests;
-	private String aboutMe;
-	private ArrayList<Profile> friendsList = new ArrayList<Profile>();
+	private String userName; //the user name for the profile
+	private String password; //the password for the profile
+	private boolean isOnline; //states if the profile is connected to server
+	private boolean friendRequests; //states if their are any outgoing, active, friend requests
+	private String contactInfo; //the profile's contact info
+	private String interests; //the profile's interests
+	private String aboutMe; //profile's description of themselves
+	private ArrayList<String> friendsList = new ArrayList<String>(); //a list of the profile's friends
 	
 	//constructor
 	public Profile(String userName, String password, String contactInfo, String interests, String aboutMe) {
@@ -27,9 +26,7 @@ public class Profile {
 		this.interests = interests;
 		this.aboutMe = aboutMe;
 		this.isOnline = true;
-		this.isPublic = true;
-		this.isPrivate = false;
-		this.isProtected = false;
+		this.friendRequests = false;
 	}
 	
 	//accessor methods
@@ -39,6 +36,10 @@ public class Profile {
 	
 	public String getPassword() {
 		return password;
+	}
+	
+	public boolean getFriendRequests() {
+		return friendRequests;
 	}
 	
 	public String getContactInfo() {
@@ -57,19 +58,7 @@ public class Profile {
 		return isOnline;
 	}
 	
-	public boolean getPublicStatus() {
-		return isPublic;
-	}
-	
-	public boolean getPrivateStatus() {
-		return isPrivate;
-	}
-	
-	public boolean getProtectedStatus() {
-		return isProtected;
-	}
-	
-	public ArrayList<Profile> getFriendsList() {
+	public ArrayList<String> getFriendsList() {
 		return friendsList;
 	}
 	
@@ -80,6 +69,10 @@ public class Profile {
 	
 	public void setPassword(String password) {
 		this.password = password;
+	}
+	
+	public void setFriendRequest(boolean friendRequests) {
+		this.friendRequests = friendRequests;
 	}
 	
 	public void setContactInfo(String contactInfo) {
@@ -98,31 +91,20 @@ public class Profile {
 		this.isOnline = status;
 	}
 	
-	public void setPublicStatus(boolean status) {
-		this.isPublic = status;
-	}
-	
-	public void setPrivateStatus(boolean status) {
-		this.isPrivate = status;
-	}
-	
-	public void setProtectedStatus(boolean status) {
-		this.isProtected = status;
-	}
-	
 	//adds a profile to the users friends list.
-	public void addFriend(Profile profile) {
-		friendsList.add(profile);
+	public void addFriend(String profileName) {
+		friendsList.add(profileName);
 	}
 	
 	//removes a profile from the users friends list.
-	public void removeFriend(Profile profile) {
-		friendsList.remove(profile);
+	public void removeFriend(String profileName) {
+		friendsList.remove(profileName);
 	}
 	
 	//Writes necessary info to a CSV format to be easily parsed
 	public String toCSV() {
-		String answer = userName + "," + password + "," + isPublic + "," + isPrivate + "," + isProtected + "," + friendsList;
+		String answer = userName + "," + password + "," + contactInfo + "," + interests + "," +
+	aboutMe + "," + friendRequests + "," + friendsList;
 		return answer;
 	}
 	
