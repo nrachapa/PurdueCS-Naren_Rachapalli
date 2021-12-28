@@ -3,10 +3,7 @@ import java.util.ArrayList;
 
 /**
  * Project 5 - Account Class
- * <p>
  * Creates a user account that has a username, password, and arraylist of profiles. 
- * @author Henry Wellman, lab sec B02
- * @version November 22, 2020
  */
 public class Account implements Serializable {
 
