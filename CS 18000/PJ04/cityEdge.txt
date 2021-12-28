@@ -1,0 +1,5 @@
+City Edge, 133 Second St
+1111111111, John Doe, example1@purdue.edu, 2024, 105
+2222222222, Jane Ketchum, example2@purdue.edu, 2022, 201
+3333333333, Astley May, example3@purdue.edu, 2021, 205
+444444444, Peter Sebastian, example4@purdue.edu, 2022, 202

@@ -1,0 +1,73 @@
+Programming Hall, 1222 First St
+101: Unknown
+102: 0038145672, May Arora, mayarora@purdue.edu, 2021
+103: Unknown
+104: 0034567812, John Doe, johnnydoe@purdue.edu, 2024
+105: Unknown
+106: 0038112272, Andrew Jeff, jeffandrew@purdue.edu, 2021
+107: 0037812456, Jane Ketchum, janeketch@purdue.edu, 2022
+108: Unknown
+109: Unknown
+201: Unknown
+202: Unknown
+203: Unknown
+204: 0038145672, Astley May, mayastley@purdue.edu, 2021
+205: Unknown
+206: Unknown
+207: Unknown
+208: Unknown
+209: Unknown
+301: 0036781992, Peter Sebastian, sebastian@purdue.edu, 2022
+302: Unknown
+303: Unknown
+304: Unknown
+305: Unknown
+306: Unknown
+307: Unknown
+308: Unknown
+309: Unknown
+401: Unknown
+402: Unknown
+403: Unknown
+404: 0032405708, Naren Rachapalli, nrachapa@purdue.edu, 2024
+405: Unknown
+406: Unknown
+407: Unknown
+408: Unknown
+409: Unknown
+501: Unknown
+502: Unknown
+503: Unknown
+504: Unknown
+505: Unknown
+506: Unknown
+507: Unknown
+508: Unknown
+509: Unknown
+601: Unknown
+602: Unknown
+603: Unknown
+604: Unknown
+605: Unknown
+606: Unknown
+607: Unknown
+608: Unknown
+609: Unknown
+701: Unknown
+702: Unknown
+703: Unknown
+704: Unknown
+705: Unknown
+706: Unknown
+707: Unknown
+708: Unknown
+709: Unknown
+801: Unknown
+802: Unknown
+803: Unknown
+804: Unknown
+805: Unknown
+806: Unknown
+807: Unknown
+808: Unknown
+809: Unknown

@@ -1,0 +1,6 @@
+Few Apartments, 144 Third St
+555555555, John Purdue, example0@purdue.edu, 2024
+666666666, Jane Purdue, example12@purdue.edu, 2023
+7777777777, Mark Ketchum, example8@purdue.edu, 2021
+8888888888, Peter Stevens, example9@purdue.edu, 2022
+0032405708, Naren Rachapalli, nrachapa@purdue.edu, 2024
